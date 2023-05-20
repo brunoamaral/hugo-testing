@@ -13,3 +13,9 @@ git clone --single-branch -b hugo-github-issue-7982 https://github.com/jmooring/
 cd hugo-github-issue-7982
 hugo server
 ```
+
+You will see a warning, and the same translation of the word "cat" when visiting both the zh and zh-cn site.
+
+Now rename i18n/zh-cn.toml to i18n/zh_cn.toml and run `hugo server` again.
+
+Everything works as expected.
