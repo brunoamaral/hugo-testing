@@ -1,0 +1,11 @@
+{{ define "main" }}
+
+**Expected**: expected range through authors
+
+	{{ range .Data.Pages }}
+	<div class="col-lg-3 col-sm-6 mb-lg-3 mb-4">
+			{{ .Render "summary" }}
+	</div>
+	{{ end }}
+	{{ template "_internal/pagination.html" . }}
+{{ end }}

@@ -1,6 +1,7 @@
 ---
 title: tag-a
-authors: [author-c]
+authors: 
+  - author-b
 ---
 
 This is content/categories/tag-a/_index.md
